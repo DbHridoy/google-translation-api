@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Build output
+dist/
+build/
+out/
+.next/
+coverage/
+temp/
+tmp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite
+.vite/
+
+# VSCode settings
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Package lock files (if you're using only one package manager, you can ignore the other)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Test coverage
+coverage/
+
+# Optional: ignore public folders generated on build
+/public/assets/
+public/build/
