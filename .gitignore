@@ -15,7 +15,6 @@ pids/
 *.pid.lock
 
 # dotenv environment variables
-.env
 .env.*.local
 
 # Build output
@@ -35,7 +34,6 @@ tmp/
 .vite/
 
 # VSCode settings
-.vscode/
 
 # OS-specific files
 .DS_Store
@@ -59,3 +57,8 @@ coverage/
 # Optional: ignore public folders generated on build
 /public/assets/
 public/build/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+branch_structure.json
